@@ -18,7 +18,7 @@ const Login = () => {
     const [errorMessage, setErrorMessage] = useState('');
     const navigate = useNavigate();
     const location = useLocation();
-    const from = location.state?.from?.pathanme || '/shop';
+    const from = location.state?.from?.pathanme || '/checkout';
 
 
     const EventBlurEmail = (event) => {

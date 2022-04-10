@@ -18,7 +18,7 @@ const Signup = () => {
     // const EventGoogleProvider = new GoogleAuthProvider();
     const navigate = useNavigate();
     const location = useLocation();
-    const from = location.state?.from?.pathanme || '/shop';
+    const from = location.state?.from?.pathanme || '/checkout';
 
     const EventBlurEmail = (event) => {
         setEmail(event.target.value);
