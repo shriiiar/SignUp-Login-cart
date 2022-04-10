@@ -1,0 +1,9 @@
+.error-header{
+    font-size: 50px;
+    color: #cf0a2c;
+}
+
+.error-div video {
+    width: 50%;
+    border: white !important;
+  }

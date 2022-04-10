@@ -1,0 +1,11 @@
+.header-span{
+    color: #cf0a2c;
+}
+
+.about-img{
+    transition: 0.4s;
+}
+
+.about-img:hover{
+    transform: scale(1.05);
+}

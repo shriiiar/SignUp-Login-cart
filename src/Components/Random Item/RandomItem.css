@@ -1,0 +1,33 @@
+.RandomItem{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 5px 5px 5px 5px rgb(228, 228, 228);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.RandomItem h5{
+    color: teal;
+  }
+  .RandomItem h6 > span{
+    color: teal;
+  }
+  
+  .RandomItem img{
+    transition: 0.4s;
+    border-radius: 10px;
+  }
+  
+  .RandomItem img:hover{
+    transform: scale(1.050);
+    transform: 0.4s;
+  }
+  
+  .img-div{
+    overflow: hidden;
+    border-radius: 10px;
+  }

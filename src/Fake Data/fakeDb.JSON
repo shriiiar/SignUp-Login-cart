@@ -1,0 +1,62 @@
+[
+  {
+    "id": "124e13b9",
+    "name": "Red Dead Redemption II",
+    "price": 150,
+    "img": "https://www.ubuy.com.bd/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNzFxMURHNXJ6dEwuX0FDX1NMMTUwMF8uanBn.jpg"
+  },
+  {
+    "id": "13cbc7ed",
+    "name": "GTA V Premium Edition",
+    "price": 130,
+    "img": "https://m.media-amazon.com/images/I/51MFu2e82VL.jpg"
+  },
+  {
+    "id": "307f166f",
+    "name": "Sekiro Shadows Die Twice",
+    "price": 100,
+    "img": "https://m.media-amazon.com/images/M/MV5BNTY4NjdjZjYtOThjYS00MGExLTllM2EtZjM5ODcyYWJmMjJjXkEyXkFqcGdeQXVyMzY0MTE3NzU@._V1_.jpg"
+  },
+  {
+    "id": "4bf9798f",
+    "name": "Elden Ring",
+    "price": 129,
+    "img": "https://m.media-amazon.com/images/I/6110RSDn3PL._AC_SL1050_.jpg"
+  },
+  {
+    "id": "9496c72b",
+    "name": "Forza Horizon 5",
+    "price": 135,
+    "img": "https://i.pinimg.com/originals/1d/c3/89/1dc3890da04a49ffe91bd1f58f14e722.jpg"
+  },
+  {
+    "id": "9496d72b",
+    "name": "Castlevania 2 Lords of Shadow",
+    "price": 70,
+    "img": "https://i.pinimg.com/originals/0d/d6/a8/0dd6a848ecea0ddb16f0bd2f0589d00a.jpg"
+  },
+  {
+    "id": "9496e72b",
+    "name": "God Of War",
+    "price": 140,
+    "img": "https://s3.gaming-cdn.com/images/products/7325/orig-fallback-v1/god-of-war-pc-game-steam-cover.jpg"
+  },
+  {
+    "id": "9496df2b",
+    "name": "FIFA 22",
+    "price": 125,
+    "img": "https://image.api.playstation.com/vulcan/img/rnd/202111/0822/YiFF5Xkljek03HhUJa4gic1Y.png"
+  },
+  {
+    "id": "949sd72b",
+    "name": "COD WarZone",
+    "price": 120,
+    "img": "https://m.media-amazon.com/images/M/MV5BZWYxY2VmN2ItNjNlNi00ZmM0LWEwMjEtMTE1NGQxMGVhMWQxXkEyXkFqcGdeQXVyMTk2OTAzNTI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": "9496d7sb",
+    "name": "Spider-Man Miles Morales",
+    "price": 149,
+    "img": "https://image.api.playstation.com/vulcan/ap/rnd/202008/1020/PRfYtTZQsuj3ALrBXGL8MjAH.jpg"
+  }
+]
