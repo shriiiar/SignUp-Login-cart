@@ -87,7 +87,7 @@ const LoadGames = () => {
                         cart.length !== 0 &&
                         <>
                             <RandomItem random={random}></RandomItem>
-                            <button onClick={ToCheckOut} className='button-33'>Proceed To Check Out</button>
+                            <button onClick={ToCheckOut} className='button-33 my-3'>Proceed To Check Out</button>
                         </>
                     }
                 </div>
