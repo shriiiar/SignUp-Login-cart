@@ -1,6 +1,6 @@
 # User Cart
 
-# Live Site [SignUp-Login-Cart](https://cart-w-user-shriiar.netlify.app/)
+# Live Site [SignUp-Login-Cart](https://cart-w-user.web.app/)
 
 ## Available Scripts
 

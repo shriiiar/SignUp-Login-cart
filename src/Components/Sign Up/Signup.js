@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import './Signup.css';
-import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, signInWithPopup, updateProfile } from 'firebase/auth';
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, sendEmailVerification, signInWithPopup, updateProfile } from 'firebase/auth';
 import app from '../../firebase.init'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSign } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +15,6 @@ const Signup = () => {
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
-    // const EventGoogleProvider = new GoogleAuthProvider();
     const navigate = useNavigate();
     const location = useLocation();
     const from = location.state?.from?.pathanme || '/checkout';
@@ -32,6 +31,12 @@ const Signup = () => {
     const EventBlurConfirmPassword = (event) => {
         setConfirmPassword(event.target.value);
     }
+    // const emailVerification = () => {
+    //     sendEmailVerification(auth.currentUser)
+    //         .then(() => {
+    //             setErrorMessage("verification Sent");
+    //         })
+    // }
     const setUserName = () => {
         updateProfile(auth.currentUser, {
             displayName: name
@@ -58,9 +63,10 @@ const Signup = () => {
                 const user = userCredential.user;
 
                 console.log(user, email, password);
-                setErrorMessage("Sign Up Successful");
-                setUserName();
-                navigate(from, { replace: true });
+                // emailVerification();
+                    setErrorMessage("Sign Up Successful");
+                    setUserName();
+                    navigate(from, { replace: true });
             })
             .catch((error) => {
                 setErrorMessage(error.message);
