@@ -32,6 +32,8 @@ const Login = () => {
         setErrorMessage('');
         console.log(email, password);
 
+        // const email = event.target.email.value, password = event.target.password.value;
+
         signInWithEmailAndPassword(auth, email, password)
             .then((userCredential) => {
                 const user = userCredential.user;
